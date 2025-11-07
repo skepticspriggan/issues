@@ -43,6 +43,52 @@ The-Compiler on 2025-11-07 10:23
 
 ## Reviews
 
+The-Compiler on 2025-11-04 13:29
+
+> Nice work overall with tests and such, thanks! Two small changes to make things more robust hopefully.
+
+skepticspriggan on 2025-11-06 20:01
+
+> 
+
+skepticspriggan on 2025-11-06 20:04
+
+> 
+
+The-Compiler on 2025-11-06 20:46
+
+> 
+
+The-Compiler on 2025-11-06 20:47
+
+> This should work better I think?
+
+The-Compiler on 2025-11-07 10:34
+
+> Some more considerations regarding functionality:
+> 
+> - Should `zoom` be added to the default `statusbar.widgets` (probably between `url` and `scroll`)? My vote would be yes, for discoverability and such.
+> - Should the widget hide itself if the zoom is 100%? Either with a config option, or by default? IMHO yes, especially if enabled by default.
+> - (Perhaps something for outside of this PR): Should the commands in `qutebrowser/components/zoomcommands.py` and `TabEventFilter._handle_wheel` in `qutebrowser/browser/eventfilter.py` stop showing messages? For the commands it's easy to rebind them to pass `--quiet`, but for the mouse wheel right now it's not possible to hide them. Maybe at least the mouse wheel one could be hidden by default if the `zoom` widget is configured to show?
+
+skepticspriggan on 2025-11-07 11:04
+
+> 
+
+skepticspriggan on 2025-11-07 11:15
+
+> 
+
+The-Compiler on 2025-11-07 11:38
+
+> 
+
+skepticspriggan on 2025-11-07 12:58
+
+> 
+
+## Review Comments
+
 The-Compiler on 2025-11-04 11:17
 
 qutebrowser/mainwindow/statusbar/zoom.py
