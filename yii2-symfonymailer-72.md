@@ -44,12 +44,12 @@ An email queue that stores the message on disk. The Symfony email message can be
 
 ## Comments
 
-skepticspriggan on 2024-04-06 10:19
+ on 2025-11-07 00:00
 
-> I have come to understand this is a non-issue since the `Message` object itself can also be serialized.
+> 
 
-ItsReddi on 2024-06-19 07:54
+ on 2025-11-07 00:00
 
-> > I have come to understand this is a non-issue since the `Message` object itself can also be serialized.
+> 
 
-Could you please explain a bit further how you solved this?
+## Reviews

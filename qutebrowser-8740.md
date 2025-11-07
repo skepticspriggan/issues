@@ -10,3 +10,31 @@ Show zoom percentage in statusbar resolving #2870.
 - The zoom widget uses `TextBase`.
 - A new zoom factor changed signal was introduced to update the percentage after each change.
 - Unit tests were added and passed succesfully.
+
+## Comments
+
+ on 2025-11-07 00:00
+
+> 
+
+ on 2025-11-07 00:00
+
+> 
+
+## Reviews
+
+ on 2025-11-07 00:00
+
+
+
+
+
+> 
+
+ on 2025-11-07 00:00
+
+
+
+
+
+> 
