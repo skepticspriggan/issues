@@ -51,8 +51,5 @@ skepticspriggan on 2024-04-06 10:19
 ItsReddi on 2024-06-19 07:54
 
 > > I have come to understand this is a non-issue since the `Message` object itself can also be serialized.
-> 
-> Could you please explain a bit further how you solved this?
-> 
 
-## Reviews
+Could you please explain a bit further how you solved this?
